@@ -6,6 +6,8 @@
         <Configurations>Debug</Configurations>
         <LangVersion>default</LangVersion>
 
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+
         <DebugType>Full</DebugType>
         <DefineConstants Condition="'$(OS)' == 'Windows_NT'">$(DefineConstants);WINDOWS</DefineConstants>
     </PropertyGroup>
